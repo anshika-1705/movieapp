@@ -1,0 +1,52 @@
+/* src/index.css */
+
+/* Global Mode Classes */
+.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+.light-mode {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* For anchor tags, buttons, etc. */
+.dark-mode a {
+  color: #ffffff;
+}
+.light-mode a {
+  color: #000000;
+}
+
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.movie-img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Banner Styling */
+.app-banner {
+  text-align: center;
+}
+
+.dark-mode .app-banner h1,
+.dark-mode .app-banner p {
+  color: #fff;
+}
+
+.light-mode .app-banner h1,
+.light-mode .app-banner p {
+  color: #000;
+}
